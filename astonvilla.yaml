@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: astonvilla
-        image: 'spbang2018/dockerdemo:av-app-imageV4'
+        image: 'spbang2018/cicdappdeployment:tagVersion'
         ports:
         - containerPort: 80
         livenessProbe:
